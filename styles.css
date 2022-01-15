@@ -519,3 +519,38 @@ main {
 	background-image: url("./assets/icons/orange-right-arrow.svg");
 	vertical-align: text-bottom;
 }
+
+footer {
+	width: 100vw;
+	min-width: 320px;
+	height: 150px;
+	background-color: var(--btc-orange);
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+footer li {
+	margin-top: 15px;
+	list-style: none;
+	margin-bottom: 8px;
+}
+
+.gh-icon {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background-image: url("./assets/icons/gh-icon.svg");
+	background-repeat: no-repeat;
+	filter: invert(99%) sepia(0%) saturate(1%) hue-rotate(71deg)
+		brightness(105%) contrast(100%);
+}
+
+.lk-icon {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background-image: url("./assets/icons/lk-icon.svg");
+	background-repeat: no-repeat;
+	filter: invert(99%) sepia(0%) saturate(1%) hue-rotate(71deg)
+		brightness(105%) contrast(100%);
+}
